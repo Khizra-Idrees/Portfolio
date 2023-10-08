@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        /* Header */
+
+header{
+    background-color: #1f2233;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo h2{
+    color: #ffffff;
+    font-size: 37px;
+}
+
+.logo span{
+    color: #fdd05a;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 18px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+nav .active{
+    color: #fdd05a;
+}
+
+nav a:hover{
+    color: #23eaab;
+    text-decoration: underline;
+}
+
+        /* Main */
+
+main{
+    background-color: #151721;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-intro{
+    color: #ffffff;
+}
+
+.my-intro .hey,.skill{
+    font-size: 30px;
+} 
+
+.my-intro .name{
+    font-weight: 600;
+    font-family: ui-monospace;
+    font-size: 55px;
+    padding: 11px 0px;
+}
+
+.my-intro button{
+    background-color: #fdd05a;
+    color: #ffffff;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 13px;
+    margin-top: 39px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+        /* About Me */
+
+.about-me{
+    background-color: #0A101E;
+   height: 75vh;
+}
+
+.about-title{
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 18px;
+}
+.about-title a{
+    color: #fdd05a;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.about-me .about-container{
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+    align-items: center;
+}
+
+.about-me .left-side img{
+    width: 278px;
+    height: 376px;
+    border: 1px solid black;
+    margin: 6px;
+    margin-right: 116px;
+}
+
+.about-me .right-side span{
+    text-align: start;
+    color: #fdd05a;
+    font-size: 45px;
+}
+
+.about-me .right-side p{
+    font-size: 26px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.about-me .right-side button{
+    background-color: #fdd05a;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 11px;
+    font-size: 20px;
+    margin-top: 37px;
+    font-weight: 600;
+    cursor: pointer;
+}
+        /* Services */
+
+.services{
+    background-color: #0a0118;
+}
+
+.services-title{
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 18px;   
+}
+
+.services-title a{
+    color: #fdd05a;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.service-container{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-services{
+    width: 274px;
+    height: 265px;
+    background-color: #101624;
+    margin: 8px;
+}
+
+.our-services i{
+    font-size: 64px;
+    margin: 11px 0px 0px 103px;
+    color: #060a12;
+}
+
+.our-services h5{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 29px;
+    font-family: emoji;
+}
+
+.our-services p{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
